@@ -45,7 +45,10 @@ $(window).on('load', function(){
 });
 
     
-        
+$('.counter').counterUp({
+    delay: 3,
+    time: 1000
+}); 
     
 
 
